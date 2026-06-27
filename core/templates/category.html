@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}
-{% comment %} <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -18,7 +18,7 @@
         <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
     </head>
     <body>
-        {% include 'navbar.html' %}  {% endcomment %} 
+        {% include 'navbar.html' %}  
 
 
         <!-- Header-->
@@ -94,7 +94,7 @@
 {% endblock %}
 
         <!-- Footer-->
-        {% comment %} <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Alireza's online shop 2025</p></div>
         </footer>
         <!-- Bootstrap core JS-->
@@ -102,5 +102,5 @@
         <!-- Core theme JS-->
         <script src="{% static 'js/scripts.js' %}"></script>
     </body>
-</html> {% endcomment %}
+</html> 
  
