@@ -18,7 +18,7 @@ class PostingAddress(models.Model):
     posting_zipcode = models.CharField(max_length=255 , null=True , blank=True)
     posting_country = models.CharField(max_length=255)
 
-    # don't pluralize address
+    
     class Meta:
         verbose_name_plural = "Posting Address"
 
